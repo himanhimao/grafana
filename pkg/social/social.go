@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/himanhimao/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/setting"
 	"golang.org/x/net/context"
 
 	"golang.org/x/oauth2"

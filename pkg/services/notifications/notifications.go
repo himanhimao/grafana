@@ -6,12 +6,12 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/events"
-	"github.com/grafana/grafana/pkg/log"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/himanhimao/grafana/pkg/bus"
+	"github.com/himanhimao/grafana/pkg/events"
+	"github.com/himanhimao/grafana/pkg/log"
+	m "github.com/himanhimao/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/setting"
+	"github.com/himanhimao/grafana/pkg/util"
 )
 
 var mailTemplates *template.Template

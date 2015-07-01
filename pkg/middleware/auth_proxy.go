@@ -1,9 +1,9 @@
 package middleware
 
 import (
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
+	"github.com/himanhimao/grafana/pkg/bus"
+	m "github.com/himanhimao/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/setting"
 )
 
 func initContextWithAuthProxy(ctx *Context) bool {

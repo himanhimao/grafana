@@ -5,14 +5,14 @@ import (
 	"strings"
 
 	"github.com/Unknwon/macaron"
+	"github.com/himanhimao/grafana/pkg/bus"
+	"github.com/himanhimao/grafana/pkg/components/apikeygen"
+	"github.com/himanhimao/grafana/pkg/log"
+	"github.com/himanhimao/grafana/pkg/metrics"
+	m "github.com/himanhimao/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/setting"
+	"github.com/himanhimao/grafana/pkg/util"
 
-	"github.com/grafana/grafana/pkg/bus"
-	"github.com/grafana/grafana/pkg/components/apikeygen"
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/metrics"
-	m "github.com/grafana/grafana/pkg/models"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
 )
 
 type Context struct {

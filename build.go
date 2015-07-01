@@ -221,6 +221,7 @@ func createPackage(options linuxPackageOptions) {
 		"--config-files", options.systemdServiceFilePath,
 		"--after-install", options.postinstSrc,
 		"--name", "grafana",
+		"--rpm-os", "linux",
 		"--version", linuxPackageVersion,
 		"-p", "./dist",
 	}

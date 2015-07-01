@@ -3,8 +3,8 @@ package sqlstore
 import (
 	"github.com/go-xorm/xorm"
 
-	"github.com/grafana/grafana/pkg/bus"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/bus"
+	m "github.com/himanhimao/grafana/pkg/models"
 )
 
 func init() {

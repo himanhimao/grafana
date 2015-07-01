@@ -2,9 +2,9 @@ package api
 
 import (
 	"github.com/Unknwon/macaron"
-	"github.com/grafana/grafana/pkg/api/dtos"
-	"github.com/grafana/grafana/pkg/middleware"
-	m "github.com/grafana/grafana/pkg/models"
+	"github.com/himanhimao/grafana/pkg/api/dtos"
+	"github.com/himanhimao/grafana/pkg/middleware"
+	m "github.com/himanhimao/grafana/pkg/models"
 	"github.com/macaron-contrib/binding"
 )
 
@@ -22,6 +22,7 @@ func Register(r *macaron.Macaron) {
 	r.Post("/login", bind(dtos.LoginCommand{}), LoginPost)
 	r.Get("/login/:name", OAuthLogin)
 	r.Get("/login", LoginView)
+	r.Get("/login/ucenter/callback", LoginUcenterCallback)
 
 	// authed views
 	r.Get("/profile/", reqSignedIn, Index)
