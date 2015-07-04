@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/grafana/grafana/pkg/log"
-	"github.com/grafana/grafana/pkg/setting"
-	"github.com/grafana/grafana/pkg/util"
+	"github.com/himanhimao/grafana/pkg/log"
+	"github.com/himanhimao/grafana/pkg/setting"
+	"github.com/himanhimao/grafana/pkg/util"
 )
 
 type RenderOpts struct {
